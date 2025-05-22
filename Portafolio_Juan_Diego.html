@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio_JuanDiego</title>
+    <!-- Here we can see the title of the website's URL. -->
+</head>
+<body>
+    <h1>Juan Diego Figueroa - Riwi Depeloper.</h1>
+    <!-- This is the title of the website. -->
+    <section>
+        <h2>About me.</h2>
+        <p>Hello, I am Juan Diego Figueroa Ramos.</p>
+        <p>I like creating code, I like technology, I'm 18 years old, I like all kinds of music, as long as it's not really heavy metal haha, but I listen to any kind of music, especially reggaeton and rap from Medellin, and I'm willing to learn everything about development.</p>
+        <img src="./Sin título.jpeg" alt="Juan Diego photo" width="200">
+        <!-- Here he talks about me and shows a picture. -->
+        <ul>
+            <li>HTML.</li>
+            <li>BACKEND.</li>
+            <li>FRONTEND.</li>
+        </ul>
+    </section>
+    <!-- with a section group all the content, to separate it. -->
+    <section>
+        <h2>Projects.</h2>
+        <h3>Project 1: Portfolio Website.</h3>
+        <p>On this website, you will find a brief description about me and my personal projects.</p>
+        <img src="./images.jpeg" alt="Personal Portfolio" width="300px">
+        <h3>Project 2: Python.</h3>
+        <p>This is my project, about Python, here we will find exercises and programs about it.</p>
+        <img src="./images/Sin títul.jpeg" alt="Python" width="300px">
+        <!-- These are the projects along with image. -->
+    </section>
+    <table>
+        <tr>
+            <th>Project 1.</th>
+            <th>HTML</th>
+        </tr>
+        <tr>
+            <td>Project 2</td>
+            <td>HTML</td>
+            <td>https://github.com/Juqn-l0v3</td>
+        </tr>
+        <tr>
+            <td>Portfolio Website</td>
+            <td>HTML</td>
+            <td><a href="https://github.com/Juqn-l0v3">View Project</a></td>
+            <!-- With an "a", the link that leads to the project is placed, which would be GitHub in this case. -->
+        </tr>
+    </table>
+    <form action="/send" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+        <!-- This is the form, which with a label shows what it asks for, and with an input it asks for what is the name, email address and some message. -->
+    </form>
+    <nav>
+        <a href="#About Me">About Me</a>
+        <a href="Projects">Projects</a>
+        <a href="Contact">Contact</a>
+        <!-- This is the browser that I use to put everything where I want it to take me. -->
+    </nav>
+</body>
+</html>
